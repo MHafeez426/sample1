@@ -1,4 +1,3 @@
-import 'package:sample3/sample3.dart' as sample3;
 
 void main() {
   Set<int> set1 = {1, 2, 3, 4, 5};
