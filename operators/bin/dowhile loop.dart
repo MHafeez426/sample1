@@ -1,3 +1,9 @@
+//do{
+//statement;
+//incre/decre;
+//}while(condition);
+
+
 void main(){
   int n = 20;
   do{
