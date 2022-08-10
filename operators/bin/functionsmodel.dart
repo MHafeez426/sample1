@@ -1,5 +1,5 @@
 import 'dart:io';
-int? a,b,c,d;
+int? a,b,c;
 void sum(a,b,c){
   int sum = a+b+c;
   print('addition= $sum');
@@ -13,8 +13,8 @@ int mul = a*b*c;
 print('multiplication $mul');
 return mul;
 }
-void div(a,b){
-double div = a/b;
+void div(a,b, {c}){
+var div = a~/b~/c;
 print('division $div');
 }
 void main(){
@@ -26,5 +26,5 @@ void main(){
   sum(x,y,z);
   sub(x,y,z);
   mul(x,y,z);
- div(x,y);
+ div(x,y,c:z);
 }
