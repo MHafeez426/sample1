@@ -7,7 +7,7 @@ class SBI extends Bank{                      //child or sub or derived class
   String branch = 'Kakkanad';
 }
 //hirerchial inheritance
-class Bike {
+class Bike{
   void details(String model, int year, String engine, double milage) {
     print('Model = $model');
     print('year  = $year');
