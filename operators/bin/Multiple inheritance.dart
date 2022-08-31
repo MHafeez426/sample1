@@ -40,3 +40,4 @@ void main(){
   obj.motherdetails('thahira', 'teacher',9495047335);
   obj.mydetails('Hafeez',13,26);
 }
+

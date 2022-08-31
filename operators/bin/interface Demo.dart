@@ -1,4 +1,4 @@
-class Myprograme{
+ class Myprograme{
   void funct1(int a){
     print('inside func 1');
   }
